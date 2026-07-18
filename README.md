@@ -33,6 +33,7 @@ Sanitized write-ups from CTF machines (HackTheBox, Hacker101 CTF) and bug-bounty
 - [Management-deploy interface on default creds → RCE as the service account](ctf/tomcat-manager-war-deploy-fieldnote-public.md)
 - [Form Parser Encoding, IP Allowlist Bypass via Headless Bot, and the Explicit Escaping Bypass](ctf/pumpkinspice-fieldnote-public.md)
 - [Print-Protocol Injection, Path-Traversal, and a Security Feature That Leaks Root](ctf/print-protocol-injection-fd-leak-fieldnote-public.md)
+- [Counting `../` Instead of Resolving the Path: Upload-Filename Traversal to RCE](ctf/upload-traversal-execution-bypass-fieldnote-public.md)
 - [String-boundary checks fall to equivalents, and diagnosing a no-op PoC by reading the binary](ctf/string-boundary-bypass-and-noop-poc-fieldnote-public.md)
 - [When the right exploit's check passes but its trigger silently no-ops](ctf/printer-privesc-capability-mismatch-fieldnote-public.md)
 - [Debug interpreter with OS primitives = unauth RCE](ctf/forth-diagnostic-interpreter-rce-fieldnote-public.md)
