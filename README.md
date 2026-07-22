@@ -60,6 +60,7 @@ Sanitized write-ups from CTF machines (HackTheBox, Hacker101 CTF) and bug-bounty
 
 - [Anatomy of a Clean No-Find: Manual IDOR Recon Against a Hardened GraphQL API](bugbounty/hardened-graphql-idor-fieldnote-public.md)
 - [The Self-Alias Wall: IDOR Testing an API That Never Hands You an Object ID](bugbounty/hardened-selfalias-api-fieldnote-public.md)
+- [When the Whole Bank Is Hardened: Recon Methodology, PII-Safe Auth Testing, and Knowing When to Stop](bugbounty/hardened-bank-vdp-recon-methodology-fieldnote-public.md)
 
 ---
 
