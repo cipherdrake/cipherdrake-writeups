@@ -26,6 +26,7 @@ Sanitized write-ups from CTF machines (HackTheBox, Hacker101 CTF) and bug-bounty
 - [Boundaries enforced in the wrong place](ctf/boundaries-in-the-wrong-place-fieldnote-public.md)
 - [Multipart Parser Differentials and Blind-Exfil Routing on CTF Platforms](ctf/multipart-parser-differential-fieldnote-public.md)
 - [Client-side JWT secrets and layered access-control gaps](ctf/owasp-a01-criticalops-fieldnote-public.md)
+- [Client-Side Role Gate + Predictable Object ID: SQLi Bypass Chained to a BOLA/IDOR](ctf/client-side-role-gate-predictable-id-idor-fieldnote-public.md)
 - [Two API Authorization Gaps That Chain: Registration Bypass + File Listing IDOR](ctf/registration-bypass-idor-fieldnote-public.md)
 - [Unsigned-token deserialization and reflecting output through an existing render path](ctf/pickle-deserialization-template-reflection-fieldnote-public.md)
 - [Render features that shell out, configs that store secrets, and privileged scripts that deserialize](ctf/unsafe-deserialization-privileged-helper-fieldnote-public.md)
