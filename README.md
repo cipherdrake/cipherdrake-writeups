@@ -38,6 +38,7 @@ Sanitized write-ups from CTF machines (HackTheBox, Hacker101 CTF) and bug-bounty
 - [String-boundary checks fall to equivalents, and diagnosing a no-op PoC by reading the binary](ctf/string-boundary-bypass-and-noop-poc-fieldnote-public.md)
 - [When the right exploit's check passes but its trigger silently no-ops](ctf/printer-privesc-capability-mismatch-fieldnote-public.md)
 - [Debug interpreter with OS primitives = unauth RCE](ctf/forth-diagnostic-interpreter-rce-fieldnote-public.md)
+- [Redirects Don't Need Splitting: Cookie-Path Scoping as the Real CRLF Injection Payload](ctf/cookie-path-scoping-fieldnote-public.md)
 
 ## GraphQL & Object Authorization
 
