@@ -30,6 +30,7 @@ Sanitized write-ups from CTF machines (HackTheBox, Hacker101 CTF) and bug-bounty
 - [Two API Authorization Gaps That Chain: Registration Bypass + File Listing IDOR](ctf/registration-bypass-idor-fieldnote-public.md)
 - [Unsigned-token deserialization and reflecting output through an existing render path](ctf/pickle-deserialization-template-reflection-fieldnote-public.md)
 - [Render features that shell out, configs that store secrets, and privileged scripts that deserialize](ctf/unsafe-deserialization-privileged-helper-fieldnote-public.md)
+- [The Gadget Isn't Always a Magic Method: PHP Object Injection via Implicit Interface Calls](ctf/php-pop-chain-iterator-gadget-fieldnote-public.md)
 - [Response-returning SSRF as a tunnel to an internal service's RCE](ctf/ssrf-proxy-to-internal-rce-fieldnote-public.md)
 - [Management-deploy interface on default creds → RCE as the service account](ctf/tomcat-manager-war-deploy-fieldnote-public.md)
 - [Form Parser Encoding, IP Allowlist Bypass via Headless Bot, and the Explicit Escaping Bypass](ctf/pumpkinspice-fieldnote-public.md)
