@@ -25,6 +25,7 @@ Sanitized write-ups from CTF machines (HackTheBox, Hacker101 CTF) and bug-bounty
 - [The API-that-trusts-the-client chain](ctf/api-trust-boundary-chain-fieldnote-public.md)
 - [Boundaries enforced in the wrong place](ctf/boundaries-in-the-wrong-place-fieldnote-public.md)
 - [Multipart Parser Differentials and Blind-Exfil Routing on CTF Platforms](ctf/multipart-parser-differential-fieldnote-public.md)
+- [Two Readers, One String: An Address-Validator Bypass That Ends in Template Injection](ctf/email-address-parser-differential-fieldnote-public.md)
 - [Client-side JWT secrets and layered access-control gaps](ctf/owasp-a01-criticalops-fieldnote-public.md)
 - [Client-Side Role Gate + Predictable Object ID: SQLi Bypass Chained to a BOLA/IDOR](ctf/client-side-role-gate-predictable-id-idor-fieldnote-public.md)
 - [Two API Authorization Gaps That Chain: Registration Bypass + File Listing IDOR](ctf/registration-bypass-idor-fieldnote-public.md)
@@ -61,6 +62,7 @@ Sanitized write-ups from CTF machines (HackTheBox, Hacker101 CTF) and bug-bounty
 
 ## Bug Bounty Methodology
 
+- [Trust the Hostname, Not the Origin: How a Permissive Subdomain Pattern Becomes Code Execution](bugbounty/self-registerable-subdomain-code-execution-fieldnote-public.md)
 - [Anatomy of a Clean No-Find: Manual IDOR Recon Against a Hardened GraphQL API](bugbounty/hardened-graphql-idor-fieldnote-public.md)
 - [The Self-Alias Wall: IDOR Testing an API That Never Hands You an Object ID](bugbounty/hardened-selfalias-api-fieldnote-public.md)
 - [When the Whole Bank Is Hardened: Recon Methodology, PII-Safe Auth Testing, and Knowing When to Stop](bugbounty/hardened-bank-vdp-recon-methodology-fieldnote-public.md)

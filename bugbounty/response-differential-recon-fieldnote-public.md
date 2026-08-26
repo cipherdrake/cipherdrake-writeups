@@ -2,7 +2,7 @@
 title: "Reading a Host by Differential: Baselines, Header Oracles, and Knowing When an Oracle Has Died"
 date: 2026-07-30
 tags: [appsec, bug-bounty, recon, methodology, http, reverse-proxy, service-mesh, burp, intruder]
-status: draft (neutral / voice-agnostic — recast into article voice before publishing)
+status: published
 sanitized: true (no target identity, hostnames, endpoints, ids, error strings, or assembled stack profile)
 visibility: public
 ---

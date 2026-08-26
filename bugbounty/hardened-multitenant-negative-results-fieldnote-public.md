@@ -4,7 +4,7 @@ author: CipherDrake
 date: 2026-08-08
 category: fieldnote
 visibility: public
-status: draft, recast into article voice before publishing
+status: published
 sanitized: true (no target identity, endpoints, operation names, ids, vendor/product names, or verbatim error strings)
 tags: [bugbounty, authorization, multitenant, graphql, methodology, negative-results]
 ---

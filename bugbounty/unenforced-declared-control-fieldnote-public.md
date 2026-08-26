@@ -4,7 +4,7 @@ author: CipherDrake
 date: 2026-08-02
 category: fieldnote
 visibility: public
-status: draft, recast into article voice before publishing
+status: published
 tags: [bugbounty, access-control, triage, severity, methodology]
 ---
 

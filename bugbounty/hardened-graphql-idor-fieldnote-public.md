@@ -2,7 +2,7 @@
 title: "Anatomy of a Clean No-Find: Manual IDOR Recon Against a Hardened GraphQL API"
 date: 2026-06-14
 tags: [appsec, bug-bounty, idor, graphql, broken-access-control, methodology, burp]
-status: draft (neutral / voice-agnostic — recast into article voice before publishing)
+status: published
 sanitized: true (no target identity, endpoints, operation names, ids, vendor names, or verbatim error strings)
 visibility: public
 ---

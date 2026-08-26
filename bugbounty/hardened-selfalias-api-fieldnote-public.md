@@ -2,7 +2,7 @@
 title: "The Self-Alias Wall: IDOR Testing an API That Never Hands You an Object ID"
 date: 2026-07-08
 tags: [appsec, bug-bounty, idor, bola, broken-access-control, mass-assignment, methodology, burp]
-status: draft (neutral / voice-agnostic — recast into article voice before publishing)
+status: published
 sanitized: true (no target identity, endpoints, field names, ids, vendor/product names, or verbatim error strings)
 visibility: public
 ---
