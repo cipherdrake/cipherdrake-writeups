@@ -235,13 +235,3 @@ candidate.
   regardless of how far upstream the string was actually assembled; the audit trail from
   "attacker input" to "compiled template source" is the thing that needs to not exist, not just
   the final call.
-
----
-
-**Proposed README placement:** `Web & API` — this is a web-application input-validation /
-template-injection finding, not AD, cloud, mobile, or GraphQL-specific.
-
-**Proposed one-line entry title (pick whichever fits better):**
-
-- Plain technical summary, sentence case: *"A regex domain check and an RFC 5322 parser disagree on the same string, chained into template injection via pre-compile interpolation."*
-- Narrative hook + colon, Title Case: *"Two Readers, One String: An Address-Validator Bypass That Ends in Template Injection"*
