@@ -1,5 +1,6 @@
 ---
 title: "Field note: detecting NTDS.dit theft via volume shadow copy"
+author: CipherDrake
 category: dfir-fieldnote
 technique: "OS Credential Dumping: NTDS (T1003.003) via VSS"
 date: "2026-06-19"

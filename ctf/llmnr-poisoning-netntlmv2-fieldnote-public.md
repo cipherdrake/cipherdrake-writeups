@@ -1,8 +1,9 @@
 ---
 title: "One Typo, One Weak Password: Reading an LLMNR Poisoning Attack Out of a Packet Capture"
+author: CipherDrake
 date: 2026-06-19
 tags: [blueteam, dfir, network-forensics, active-directory, llmnr, nbt-ns, responder, ntlmv2, netntlmv2, pcap, wireshark, methodology]
-status: draft (neutral / voice-agnostic; recast into article voice before publishing)
+status: published
 sanitized: true (no target identity, platform, hostnames, IPs, usernames, share names, passwords, challenge values, or paths)
 visibility: public
 ---

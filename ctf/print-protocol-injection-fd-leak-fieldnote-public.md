@@ -1,5 +1,6 @@
 ---
 title: "Field Note: Print-Protocol Injection, Path-Traversal, and a Security Feature That Leaks Root"
+author: CipherDrake
 category: fieldnote
 visibility: "public"
 tags:

@@ -1,5 +1,6 @@
 ---
 title: "The Gadget Isn't Always a Magic Method: PHP Object Injection via Implicit Interface Calls"
+author: CipherDrake
 date: "2026-07-29"
 visibility: "public"
 tags:

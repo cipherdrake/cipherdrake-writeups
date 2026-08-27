@@ -1,5 +1,6 @@
 ---
 title: "Field note: unsigned-token deserialization and reflecting output through an existing render path"
+author: CipherDrake
 category: "web"
 vulnerability_class: "Insecure Deserialization (CWE-502)"
 date: "2026-07-12"

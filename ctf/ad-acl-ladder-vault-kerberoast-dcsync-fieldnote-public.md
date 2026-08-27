@@ -1,5 +1,6 @@
 ---
 title: "Field note: ACL ladder + a credential vault + GenericWrite->Kerberoast->DCSync"
+author: CipherDrake
 category: "field-note"
 tags:
   - active-directory

@@ -1,8 +1,9 @@
 ---
 title: "Pre-Auth Type Zero: Detecting AS-REP Roasting from the Domain Controller Alone"
+author: CipherDrake
 date: 2026-06-19
 tags: [blueteam, dfir, active-directory, kerberos, asrep-roasting, detection, event-4768, event-4769, attribution, methodology]
-status: draft (neutral / voice-agnostic; recast into article voice before publishing)
+status: published
 sanitized: true (no target identity, platform, hostnames, IPs, usernames, account names, SIDs, or paths)
 visibility: public
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Client-Side Role Gate + Predictable Object ID: SQLi Auth Bypass Chained to a BOLA/IDOR — Field Note"
+author: CipherDrake
 visibility: public
 tags:
   - ctf

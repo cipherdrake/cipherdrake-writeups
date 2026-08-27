@@ -1,8 +1,9 @@
 ---
 title: "Secrets in the Bundle: Why a MAC Key Shipped in an App Is Not Integrity"
+author: CipherDrake
 date: 2026-06-18
 tags: [appsec, mobile, android, reverse-engineering, hardcoded-secrets, client-side-secret, mac, integrity, methodology]
-status: draft (neutral / voice-agnostic; recast into article voice before publishing)
+status: published
 sanitized: true (no target identity, platform, package name, endpoints, header names, or real flag/key values)
 visibility: public
 ---

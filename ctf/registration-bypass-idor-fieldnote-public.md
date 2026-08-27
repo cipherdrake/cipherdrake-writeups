@@ -1,5 +1,6 @@
 ---
 title: "Two API Authorization Gaps That Chain: Registration Bypass via Unauthenticated Endpoint + File Listing IDOR"
+author: CipherDrake
 date: 2026-07-10
 tags: [appsec, ctf, idor, broken-access-control, api-security, openapi, owasp-api-top-10, methodology]
 status: complete

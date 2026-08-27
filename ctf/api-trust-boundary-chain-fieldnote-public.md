@@ -1,5 +1,6 @@
 ---
 title: "Field note: the API-that-trusts-the-client chain"
+author: CipherDrake
 category: "field-note"
 tags:
   - web

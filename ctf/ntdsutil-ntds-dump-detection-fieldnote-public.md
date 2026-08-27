@@ -1,5 +1,6 @@
 ---
 title: "Field note: detecting NTDS.dit theft via ntdsutil (the ESENT trail)"
+author: CipherDrake
 category: dfir-fieldnote
 technique: "OS Credential Dumping: NTDS (T1003.003) via ntdsutil + VSS/ESE"
 date: "2026-06-19"

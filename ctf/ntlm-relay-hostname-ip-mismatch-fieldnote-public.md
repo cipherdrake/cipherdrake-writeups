@@ -1,5 +1,6 @@
 ---
 title: "Field note: detecting NTLM relay by the hostname/IP mismatch"
+author: CipherDrake
 category: fieldnote
 date: "2026-06-19"
 tags:

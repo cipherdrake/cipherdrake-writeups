@@ -1,5 +1,6 @@
 ---
 title: "Anatomy of a Clean No-Find: Manual IDOR Recon Against a Hardened GraphQL API"
+author: CipherDrake
 date: 2026-06-14
 tags: [appsec, bug-bounty, idor, graphql, broken-access-control, methodology, burp]
 status: published

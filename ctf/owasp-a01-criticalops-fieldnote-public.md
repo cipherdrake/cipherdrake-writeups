@@ -1,5 +1,6 @@
 ---
 title: "Field note: client-side JWT secrets and layered access-control gaps"
+author: CipherDrake
 category: "web"
 vulnerability_class: "Broken Access Control (A01) + Cryptographic Failures (A04)"
 date: "2026-07-08"

@@ -1,5 +1,6 @@
 ---
 title: "Field note: management-deploy interface on default creds -> RCE as the service account"
+author: CipherDrake
 category: "fieldnote"
 tags:
   - appsec

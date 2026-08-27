@@ -1,5 +1,6 @@
 ---
 title: "Field note: when the right exploit's check passes but its trigger silently no-ops"
+author: CipherDrake
 category: "fieldnote"
 tags:
   - fieldnote

@@ -1,5 +1,6 @@
 ---
 title: "Field Note: Multipart Parser Differentials and Blind-Exfil Routing on CTF Platforms"
+author: CipherDrake
 category: field-note
 tags: [ctf, web, multipart, file-upload, parser-differential, xss, ctf-methodology]
 date: "2026-07-11"

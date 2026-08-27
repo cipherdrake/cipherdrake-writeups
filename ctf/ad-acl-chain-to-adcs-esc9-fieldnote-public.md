@@ -1,5 +1,6 @@
 ---
 title: "Field note: the AD object-control chain that ends in AD CS ESC9"
+author: CipherDrake
 category: "field-note"
 tags:
   - active-directory

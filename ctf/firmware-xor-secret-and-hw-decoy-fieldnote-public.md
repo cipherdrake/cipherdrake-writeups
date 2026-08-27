@@ -1,5 +1,6 @@
 ---
 title: "Field note: firmware secrets behind XOR + a hardware-check decoy"
+author: CipherDrake
 category: "field-note"
 tags:
   - ctf

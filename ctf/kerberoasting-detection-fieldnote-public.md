@@ -1,8 +1,9 @@
 ---
 title: "One RC4 Ticket in a Field of AES: Detecting Kerberoasting Across the DC and the Endpoint"
+author: CipherDrake
 date: 2026-06-19
 tags: [blueteam, dfir, active-directory, kerberos, kerberoasting, detection, event-4769, powershell-logging, prefetch, methodology]
-status: draft (neutral / voice-agnostic; recast into article voice before publishing)
+status: published
 sanitized: true (no target identity, platform, hostnames, IPs, usernames, account names, or paths)
 visibility: public
 ---

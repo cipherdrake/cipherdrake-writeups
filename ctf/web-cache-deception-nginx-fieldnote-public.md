@@ -1,5 +1,6 @@
 ---
 title: "Web Cache Deception via Nginx Proxy Cache + Dynamic Content at Static-Extension URLs"
+author: CipherDrake
 category: "field-note"
 technique: "web-cache-deception"
 date: "2026-07-13"

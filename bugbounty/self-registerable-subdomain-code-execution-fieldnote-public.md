@@ -1,5 +1,6 @@
 ---
 title: "Trust the Hostname, Not the Origin: How a Permissive Subdomain Pattern Becomes Code Execution"
+author: CipherDrake
 date: 2026-07-17
 tags: [appsec, bug-bounty, code-injection, cwe-94, xss, client-side, paas, methodology]
 status: published

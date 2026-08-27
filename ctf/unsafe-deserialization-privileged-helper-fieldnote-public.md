@@ -1,5 +1,6 @@
 ---
 title: "Field note: render features that shell out, configs that store secrets, and privileged scripts that deserialize"
+author: CipherDrake
 category: fieldnote
 tags:
   - fieldnote

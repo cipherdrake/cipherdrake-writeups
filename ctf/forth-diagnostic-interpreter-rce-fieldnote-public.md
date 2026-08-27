@@ -1,5 +1,6 @@
 ---
 title: "Field note: debug interpreter with OS primitives = unauth RCE"
+author: CipherDrake
 category: "field-note"
 tags:
   - ctf

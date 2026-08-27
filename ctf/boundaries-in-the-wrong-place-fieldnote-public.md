@@ -1,5 +1,6 @@
 ---
 title: "Field note: boundaries enforced in the wrong place"
+author: CipherDrake
 category: "fieldnote"
 visibility: "public"
 date: "2026-07-01"

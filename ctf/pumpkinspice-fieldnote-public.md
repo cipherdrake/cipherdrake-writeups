@@ -1,5 +1,6 @@
 ---
 title: "Field Note: Form Parser Encoding, IP Allowlist Bypass via Headless Bot, and the Explicit Escaping Bypass"
+author: CipherDrake
 category: "field-note"
 technique-class: "stored-xss, command-injection, ip-allowlist-bypass, oob-exfil"
 date: "2026-07-13"

@@ -1,8 +1,9 @@
 ---
 title: "The Sibling Type That Leaks: GraphQL Private-Field Exposure and the Unenforced Boolean"
+author: CipherDrake
 date: 2026-06-18
 tags: [appsec, ctf, graphql, idor, bola, broken-access-control, introspection, methodology]
-status: draft (neutral / voice-agnostic; recast into article voice before publishing)
+status: published
 sanitized: true (no target identity, platform, endpoints, operation names, ids, or real flag)
 visibility: public
 ---

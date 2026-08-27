@@ -1,8 +1,9 @@
 ---
 title: "Hidden Is Not Protected: Relay node(id:) IDOR and the Listing-Filter Illusion"
+author: CipherDrake
 date: 2026-06-18
 tags: [appsec, ctf, graphql, idor, bola, broken-access-control, relay, methodology]
-status: draft (neutral / voice-agnostic; recast into article voice before publishing)
+status: published
 sanitized: true (no target identity, platform, endpoints, operation names, ids, or real flag)
 visibility: public
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Upload-Filename Path Traversal to RCE via Execution-Permission Mismatch — Field Note"
+author: CipherDrake
 visibility: public
 tags:
   - ctf

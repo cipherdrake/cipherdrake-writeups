@@ -1,5 +1,6 @@
 ---
 title: "Field note: anonymous kubelet -> SA token -> create-pods = host root"
+author: CipherDrake
 category: "field-note"
 tags:
   - kubernetes

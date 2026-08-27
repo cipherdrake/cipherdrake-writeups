@@ -1,5 +1,6 @@
 ---
 title: "Field note: response-returning SSRF as a tunnel to an internal service's RCE"
+author: CipherDrake
 category: "fieldnote"
 tags:
   - appsec

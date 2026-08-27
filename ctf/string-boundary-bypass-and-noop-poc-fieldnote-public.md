@@ -1,5 +1,6 @@
 ---
 title: "Field note: string-boundary checks fall to equivalents, and diagnosing a no-op PoC by reading the binary"
+author: CipherDrake
 category: fieldnote
 date: "2026-07-02"
 tags:

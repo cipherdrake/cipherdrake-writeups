@@ -1,5 +1,6 @@
 ---
 title: "Redirects Don't Need Splitting: Cookie-Path Scoping as the Real CRLF Injection Payload"
+author: CipherDrake
 visibility: "public"
 category: field-note
 tags: [ctf, web, crlf-injection, http-headers, cookies, xss, http-smuggling, reverse-proxy]
