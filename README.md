@@ -9,6 +9,9 @@ Sanitized write-ups from CTF machines (HackTheBox, Hacker101 CTF) and bug-bounty
 - [ACL ladder + a credential vault + GenericWrite → Kerberoast → DCSync](ctf/ad-acl-ladder-vault-kerberoast-dcsync-fieldnote-public.md)
 - [The AD object-control chain that ends in AD CS ESC9](ctf/ad-acl-chain-to-adcs-esc9-fieldnote-public.md)
 - [The credential-laundering chain on an AD box](ctf/credential-laundering-chain-ad-fieldnote-public.md)
+- [Patched Is Not Dead: BadSuccessor Scoped to Whatever You Can Write](ctf/badsuccessor-dmsa-genericwrite-fieldnote-public.md)
+- [Phantom Published Templates: How a CA's Own Template List Becomes an ESC1 Primitive](ctf/adcs-phantom-published-template-esc1-fieldnote-public.md)
+- [When a Privileged Remote Operation Returns Access-Denied, Suspect Your Output Path Before Your Privilege](ctf/access-denied-exfil-path-fieldnote-public.md)
 
 ## Active Directory — Detection / DFIR
 
@@ -41,6 +44,13 @@ Sanitized write-ups from CTF machines (HackTheBox, Hacker101 CTF) and bug-bounty
 - [When the right exploit's check passes but its trigger silently no-ops](ctf/printer-privesc-capability-mismatch-fieldnote-public.md)
 - [Debug interpreter with OS primitives = unauth RCE](ctf/forth-diagnostic-interpreter-rce-fieldnote-public.md)
 - [Redirects Don't Need Splitting: Cookie-Path Scoping as the Real CRLF Injection Payload](ctf/cookie-path-scoping-fieldnote-public.md)
+- [Two Doors, One Failure: Framework Deserialization RCE and a Debugger Left Open to Root](ctf/nextjs-rsc-deserialization-rce-fieldnote-public.md)
+- [Trusted By Location, Not By Identity: Dev-Tooling RCE and the Hidden-Tools Antipattern](ctf/dev-tooling-hidden-admin-tools-fieldnote-public.md)
+- [The Gap Between Validate and Execute: A TOCTOU Race Against a Privileged File-Watcher](ctf/toctou-privileged-file-watcher-race-fieldnote-public.md)
+- [Three Parameters, One Shell Command, One Unvalidated: Validator Asymmetry as an Injection Primitive](ctf/sibling-parameter-validator-asymmetry-fieldnote-public.md)
+- [Client-side crypto is not a trust boundary, and neither is a filename sanitizer](ctf/client-side-crypto-trust-boundary-fieldnote-public.md)
+- [The Same Deserialization Bug in Three Components, Across Three Trust Boundaries](ctf/recurring-deserialization-ml-checkpoint-chain-fieldnote-public.md)
+- [SSRF Host-Blocklist Parser Differentials, and Why Concealment Isn't Access Control](ctf/ssrf-blocklist-parser-differential-fieldnote-public.md)
 
 ## GraphQL & Object Authorization
 
@@ -51,6 +61,7 @@ Sanitized write-ups from CTF machines (HackTheBox, Hacker101 CTF) and bug-bounty
 
 - [App-RCE to host-root via a bind-mounted host home](ctf/container-bindmount-host-escape-fieldnote-public.md)
 - [Anonymous kubelet → SA token → create-pods = host root](ctf/k8s-anonymous-kubelet-hostpath-fieldnote-public.md)
+- [Cloud-Native SSRF Chain, IAM Proxy Bypass, and Privileged Container Core-Pattern Escape](ctf/imds-chain-to-core-pattern-container-escape-fieldnote-public.md)
 
 ## Reversing & Firmware
 
