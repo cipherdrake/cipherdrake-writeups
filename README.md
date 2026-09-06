@@ -13,7 +13,7 @@ Sanitized write-ups from CTF machines (HackTheBox, Hacker101 CTF) and bug-bounty
 - [Phantom Published Templates: How a CA's Own Template List Becomes an ESC1 Primitive](ctf/adcs-phantom-published-template-esc1-fieldnote-public.md)
 - [When a Privileged Remote Operation Returns Access-Denied, Suspect Your Output Path Before Your Privilege](ctf/access-denied-exfil-path-fieldnote-public.md)
 
-## Active Directory — Detection / DFIR
+## Detection & DFIR
 
 - [One RC4 Ticket in a Field of AES: Detecting Kerberoasting Across the DC and the Endpoint](ctf/kerberoasting-detection-fieldnote-public.md)
 - [Pre-Auth Type Zero: Detecting AS-REP Roasting from the Domain Controller Alone](ctf/asrep-roasting-detection-fieldnote-public.md)
@@ -21,6 +21,7 @@ Sanitized write-ups from CTF machines (HackTheBox, Hacker101 CTF) and bug-bounty
 - [Detecting NTLM relay by the hostname/IP mismatch](ctf/ntlm-relay-hostname-ip-mismatch-fieldnote-public.md)
 - [Detecting NTDS.dit theft via volume shadow copy](ctf/vss-ntds-dump-detection-fieldnote-public.md)
 - [Detecting NTDS.dit theft via ntdsutil (the ESENT trail)](ctf/ntdsutil-ntds-dump-detection-fieldnote-public.md)
+- [Two Logs, One Intrusion: Correlating auth.log and wtmp to Expose an SSH Brute Force and Its Backdoor Account](ctf/linux-auth-log-wtmp-correlation-fieldnote-public.md)
 
 ## Web & API
 
@@ -51,6 +52,8 @@ Sanitized write-ups from CTF machines (HackTheBox, Hacker101 CTF) and bug-bounty
 - [Client-side crypto is not a trust boundary, and neither is a filename sanitizer](ctf/client-side-crypto-trust-boundary-fieldnote-public.md)
 - [The Same Deserialization Bug in Three Components, Across Three Trust Boundaries](ctf/recurring-deserialization-ml-checkpoint-chain-fieldnote-public.md)
 - [SSRF Host-Blocklist Parser Differentials, and Why Concealment Isn't Access Control](ctf/ssrf-blocklist-parser-differential-fieldnote-public.md)
+- [The Lock Was on the Wrong Door: When Authorization Binds to One HTTP Verb](ctf/per-verb-access-control-gap-fieldnote-public.md)
+- [The Hash Is Not the Secret: When a Session Token Is Just a Guessable Value in Disguise](ctf/derived-session-token-fieldnote-public.md)
 
 ## GraphQL & Object Authorization
 
