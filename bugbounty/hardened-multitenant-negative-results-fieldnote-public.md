@@ -50,7 +50,7 @@ Five steps, and steps 1 and 4 are the ones people skip:
 
 Without step 1, a zero is indistinguishable from an unindexed record. Without step 4, a zero has no baseline. Without 2 and 5, you are asserting which account you were rather than demonstrating it.
 
-To make the oracle live I had to create one real record in one tenant, so that "empty" and "non-empty" were finally different states. That is a production write, and it goes in the disclosure list — but without it the whole comparison was two zeros.
+To make the oracle live I had to create one real record in one tenant, so that "empty" and "non-empty" were finally different states. That is a production write, and it goes in the disclosure list, but without it the whole comparison was two zeros.
 
 ## 4. Prove the session, do not remember it
 
@@ -72,7 +72,7 @@ Worth knowing which half of the trick works before you spend requests on it.
 
 I pulled 447 JavaScript chunks and grepped them thoroughly for API routes. The list I built was confidently incomplete.
 
-Routes constructed as `${base}/${id}/${resource}` never appear as literal strings, so grep cannot see them. I only found an entire class of endpoints — including the most interesting one on the target — by *using the application* with the proxy running and watching what it actually sent.
+Routes constructed as `${base}/${id}/${resource}` never appear as literal strings, so grep cannot see them. I only found an entire class of endpoints, including the most interesting one on the target, by *using the application* with the proxy running and watching what it actually sent.
 
 Static and dynamic are complements. A bundle grep gives you a floor, never a ceiling.
 
@@ -80,9 +80,9 @@ Static and dynamic are complements. A bundle grep gives you a floor, never a cei
 
 Three times on this target, a naming convention looked exactly like a security boundary:
 
-- two operations distinguished only by a `...ForStaff` suffix — which turned out to hit the *same* resolver, because operation names are client-side labels the server never treats as identity
-- two differently-named fields for the same value, one apparently privileged — no schema-level restriction on either
-- a tenant identifier passed as an explicit filter field, as though the client were choosing its own scope — which the server ignored in favour of the token
+- two operations distinguished only by a `...ForStaff` suffix, which turned out to hit the *same* resolver, because operation names are client-side labels the server never treats as identity
+- two differently-named fields for the same value, one apparently privileged, no schema-level restriction on either
+- a tenant identifier passed as an explicit filter field, as though the client were choosing its own scope, which the server ignored in favour of the token
 
 Suggestive naming generates lead after lead, and on a well-built target every one of them dies. Budget accordingly.
 
@@ -100,12 +100,12 @@ Both halves of the hypothesis, confirmed empirically.
 
 Then the resulting request returned `404`. The endpoints those handlers post to do not exist. The code path is vestigial. An attacker can make a page emit a forged request that the server discards.
 
-The question that killed it is the one to ask first, not last: **what does the attacker gain that they did not already have?** The sink was unauthenticated anyway — anyone could have posted to it directly, if it had existed. The missing origin check granted no new capability. Real defect, no impact, Informational.
+The question that killed it is the one to ask first, not last: **what does the attacker gain that they did not already have?** The sink was unauthenticated anyway, anyone could have posted to it directly, if it had existed. The missing origin check granted no new capability. Real defect, no impact, Informational.
 
 ## The meta-lesson
 
 Two days in, the honest summary was "this target's access control is sound, across every parameter shape, both application stacks, three backend services, reads and writes, and both directions." That is a *result*. It says where not to spend the next engagement, which is worth more than another twenty inconclusive probes on the same class.
 
-The trap in a long engagement is that sunk cost starts arguing for you. You have two accounts provisioned, a working harness, hours invested — and a marginal finding starts looking submittable. Every gate above exists to stop exactly that. A clean negative you can defend is better than a Low you cannot.
+The trap in a long engagement is that sunk cost starts arguing for you. You have two accounts provisioned, a working harness, hours invested, and a marginal finding starts looking submittable. Every gate above exists to stop exactly that. A clean negative you can defend is better than a Low you cannot.
 
-Also: a client-side testing harness is worth building once and keeping. Mine failed for two sessions before I read enough of the target's own code to find the reason — the script deliberately refuses to initialise on `localhost`, on IP literals, and on CMS admin paths, which is sensible analytics hygiene and completely invisible from the outside. A hosts-file entry mapping a real-looking name to loopback fixed it in one line. Test-environment exclusions are not security controls, but they will absolutely stop you reproducing something that is genuinely there.
+Also: a client-side testing harness is worth building once and keeping. Mine failed for two sessions before I read enough of the target's own code to find the reason, the script deliberately refuses to initialise on `localhost`, on IP literals, and on CMS admin paths, which is sensible analytics hygiene and completely invisible from the outside. A hosts-file entry mapping a real-looking name to loopback fixed it in one line. Test-environment exclusions are not security controls, but they will absolutely stop you reproducing something that is genuinely there.
